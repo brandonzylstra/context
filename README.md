@@ -103,11 +103,11 @@ This will produce the following HTML:
 
 ```html
 <section>
-  <h3 aria-level="1">Title</h3>
+  <h1 aria-level="1">Title</h1>
   <p>This section uses a heading of level 1.</p>
 
   <section>
-    <h3 aria-level="2">Heading</h3>
+    <h2 aria-level="2">Heading</h2>
     <p>This section uses a heading of level 2.</p>
 
     <section>
@@ -115,7 +115,7 @@ This will produce the following HTML:
       <p>This section uses a heading of level 3.</p>
 
       <section>
-        <h3 aria-level="4">Sub-Sub-Heading</h3>
+        <h4 aria-level="4">Sub-Sub-Heading</h4>
         <p>This section uses a heading of level 4.</p>
       </section>
     </section>
